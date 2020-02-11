@@ -4,7 +4,7 @@ class SimpleFormClass extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            email:""
+            email: ""
         };
         this.handleChange = this.handleChange.bind(this);
     }
@@ -16,7 +16,7 @@ class SimpleFormClass extends Component {
             <div>
             <h1>You entered</h1>
             <input type='text'
-            value={this.value.email}
+            value={this.email}
             onChange={this.handleChange}>
             </input>
             </div>

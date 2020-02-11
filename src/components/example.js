@@ -1,7 +1,7 @@
 import React from 'react'
-import useInputState from "./hooks/useInputState";
+import useInputState from "./useInputstate";
 
-export default function example() {
+export default function Example() {
     const [email, updateEmail, resetEmail] = useInputState("");
     return (
         <div>

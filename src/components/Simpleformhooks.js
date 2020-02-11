@@ -1,6 +1,6 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 
-export default function() {
+export default function Simpleformhoos() {
   const [email, setEmail] = useState("");
   const handleChange = (e) => {
       setEmail(e.target.value)
